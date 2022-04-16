@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://workfyy.github.io</id>
     <title>每日记录</title>
-    <updated>2022-04-16T13:36:31.148Z</updated>
+    <updated>2022-04-16T13:39:27.925Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://workfyy.github.io"/>
     <link rel="self" href="https://workfyy.github.io/atom.xml"/>
-    <subtitle>Bolshevik凯歌的声</subtitle>
+    <subtitle>记录自己，温故而知新</subtitle>
     <logo>https://workfyy.github.io/images/avatar.png</logo>
     <icon>https://workfyy.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 每日记录</rights>
