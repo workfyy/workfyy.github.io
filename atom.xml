@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://workfyy.github.io</id>
     <title>每日记录</title>
-    <updated>2022-04-16T13:20:03.541Z</updated>
+    <updated>2022-04-16T13:22:58.009Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://workfyy.github.io"/>
     <link rel="self" href="https://workfyy.github.io/atom.xml"/>
@@ -16,7 +16,9 @@
         <link href="https://workfyy.github.io/post/ni-hao/">
         </link>
         <updated>2022-04-10T08:27:03.000Z</updated>
-        <content type="html"><![CDATA[<p>work</p>
+        <content type="html"><![CDATA[<p>欢迎来到Bolshevik的小站<br>
+随处看看吧~😄<br>
+👌</p>
 ]]></content>
     </entry>
     <entry>
