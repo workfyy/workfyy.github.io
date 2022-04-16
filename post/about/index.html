@@ -7,13 +7,19 @@
 <meta name="description" content="Bolshevik凯歌的声">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://worker.github.io/favicon.ico?v=1650101089357">
+<link rel="shortcut icon" href="https://https://worker.github.io/favicon.ico?v=1650101894472">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://worker.github.io/styles/main.css">
+<link rel="stylesheet" href="https://https://worker.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
@@ -26,7 +32,7 @@
   
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
-    <h3><a href="https://worker.github.io">每日记录</a></h3>
+    <h3><a href="https://https://worker.github.io">每日记录</a></h3>
   </div>
   <div class="collapsible">
     <input id="collapsible1" type="checkbox" name="collapsible1">
@@ -103,11 +109,19 @@
           
         </div>
         
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
       </div>
 
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://worker.github.io/images/avatar.png?v=1650101089357" class="no-responsive avatar">
+    <img src="https://https://worker.github.io/images/avatar.png?v=1650101894472" class="no-responsive avatar">
     <div class="text-muted">Bolshevik凯歌的声</div>
     <div class="social-container">
       
@@ -132,19 +146,19 @@
         
           
             <li>
-              <a href="https://worker.github.io/post/ni-hao/">你好</a>
+              <a href="https://https://worker.github.io/post/ni-hao/">你好</a>
             </li>
           
         
           
             <li>
-              <a href="https://worker.github.io/post/about/">关于</a>
+              <a href="https://https://worker.github.io/post/about/">关于</a>
             </li>
           
         
           
             <li>
-              <a href="https://worker.github.io/post/hello-gridea/">Hello Gridea</a>
+              <a href="https://https://worker.github.io/post/hello-gridea/">Hello Gridea</a>
             </li>
           
         
@@ -157,14 +171,14 @@
     </div>
     <div class="row">
       
-        <a href="https://worker.github.io/tag/mZ0GTqYzC/" class="badge success">
+        <a href="https://https://worker.github.io/tag/mZ0GTqYzC/" class="badge warning">
           Gridea
         </a>
       
     </div>
   </div>
   <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://worker.github.io/atom.xml" target="_blank">RSS</a>
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://https://worker.github.io/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
 
@@ -180,6 +194,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '0636cd7477b2ddb97fb5',
+        clientSecret: '41eb92c7d67f22af90eec6e8bf4e0e3678963a9b',
+        repo: 'worker.github.io',
+        owner: 'workfyy',
+        admin: ['workfyy'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
