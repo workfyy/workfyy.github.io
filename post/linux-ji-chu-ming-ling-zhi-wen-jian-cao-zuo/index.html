@@ -265,7 +265,7 @@
                         src='https://workfyy.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://workfyy.github.io/images/avatar.png?v=1651200871110" class="avatar">
+            <img src="https://workfyy.github.io/images/avatar.png?v=1651476111290" class="avatar">
         </div>
         <div class="sitename">林中小站</div>
         <span class="description" data-text='["记录自己，温故而知新"]'>&nbsp;</span>
@@ -285,7 +285,10 @@
         </div>
         
     <div class="share-button">
-        <span></span>
+        <span>我的社交</span>
+        
+        <a href="https://github.com/workfyy" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="https://workfyy.github.io/media/images/github.png" alt=""></i></a>
         
         
         <a onclick="showqq()"><i style="font-size: 20px;"><img class="icon"
@@ -298,6 +301,9 @@
         
         
         
+        
+        <a href="https://music.163.com/#/user/home?id=1712652499" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="https://workfyy.github.io/media/images/wyy.png" alt=""></i></a>
         
         
     </div>
@@ -387,7 +393,7 @@
 
 <body>
     <div class="foot">
-        <div id="footinfo">Powered by <a href="https://github.com/getgridea/gridea"  | Theme: <a
+        <div id="footinfo"> | Theme: <a
                 href="https://github.com/850552586/gridea-theme-fog">Fog</a>
             <div>
                 
@@ -486,8 +492,8 @@
 <!------------- Fog1.0版本彩蛋👆 -------------->
 <script>
     function change_topmenu(){
-        tmcolor = "#748ffc"
-        tsnamecolor = "antiquewhite"
+        tmcolor = "#6495ED"
+        tsnamecolor = "#3CB371"
         $(".navbar-inverse .navbar-nav>li>a").css("color",tmcolor)
         $(".navbar-inverse .navbar-brand").css("color",tsnamecolor)
         $(".navbar-fixed-top").css("border-radius","0 0 10px 10px")
@@ -502,12 +508,12 @@
     
     
     <script>
-        var shareChoice = false
+        var shareChoice = true
     </script>
     
     
     <script>
-        var donateChoice = false
+        var donateChoice = true
     </script>
     
     
@@ -547,6 +553,12 @@
         var icondict = new Array();
     </script>
     
+        
+            <script>
+                var iconname = "";
+                var iconurl = "";
+                icondict[iconname] = iconurl;
+            </script>
         
     
     <!----------根据自定义配置设置图标信息👆---------->
@@ -1094,15 +1106,41 @@ menulist.eq(i).show();
             </div>
             <hr style="width: 80%;">
             
+            <div class="donateContainer">
+                <span class="donatebtn">赏</span>
+            </div>
+            <div class="donateContainer">
+                <img src="https://img.zcool.cn/community/01a8e85cf8f15fa801205e4b76ea21.gif" alt="" class="donate">
+            </div>
+            
             <div class="postfooter">
                 <ul class="post-copyright">
-                    <li><strong>文章作者：</strong></li>
+                    <li><strong>文章作者：</strong>林中小站版权所属，严禁未经授权转载</li>
             <li><strong>原文链接：</strong>https://workfyy.github.io/post/linux-ji-chu-ming-ling-zhi-wen-jian-cao-zuo/</li>
             <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
                 许可协议。转载请注明出处！</li>
             </ul>
         </div>
         
+            <div class="shareContainer">
+                <div class="share" style="height:30px;">
+                    <a class="qq" href=""><i><img class="shareicon"
+                                src="https://workfyy.github.io/media/images/qqs.png" alt=""></i></a>
+                    <a class="wechat" href=""><i><img class="shareicon"
+                                src="https://workfyy.github.io/media/images/wechats.png" alt=""></i></a>
+                    <a class="weibo" href=""><i><img class="shareicon"
+                                src="https://workfyy.github.io/media/images/weibos.png" alt=""></i></a>
+                    <a class="qzone" href=""><i><img class="shareicon"
+                                src="https://workfyy.github.io/media/images/qzones.png" alt=""></i></a>
+                    <a class="douban" href=""><i><img class="shareicon"
+                                src="https://workfyy.github.io/media/images/doubans.png" alt=""></i></a>
+                    <a class="facebook" href=""><i><img class="shareicon"
+                                src="https://workfyy.github.io/media/images/facebooks.png" alt=""></i></a>
+                    <a class="twitter" href=""><i><img class="shareicon"
+                                src="https://workfyy.github.io/media/images/twitter.png" alt=""></i></a>
+                </div>
+            </div>
+            
         <div id="otherpost">
             
             
@@ -1198,7 +1236,7 @@ menulist.eq(i).show();
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script>
     function aplayerInit() {
-        var aplayerid = "";
+        var aplayerid = "&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=337 height=110 src=&#34;//music.163.com/#/my/m/music/playlist?id=7413731154&amp;auto=1&amp;height=90&#34;&gt;&lt;/iframe&gt;";
         var aplayerserver = "netease";
         var aplayerorder = "default";
         var aplayerautoplay = "true";
