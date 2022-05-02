@@ -88,7 +88,7 @@
                         src='https://workfyy.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://workfyy.github.io/images/avatar.png?v=1651483896268" class="avatar">
+            <img src="https://workfyy.github.io/images/avatar.png?v=1651488147872" class="avatar">
         </div>
         <div class="sitename">林中小站</div>
         <span class="description" data-text='["记录自己，温故而知新"]'>&nbsp;</span>
@@ -634,13 +634,13 @@
                 shareInit();
             if (donateChoice)
                 donateInit();
-            if ("default" == "default"&&!commentsHide) {
+            if ("valine" == "default"&&!commentsHide) {
                 $("#comment").hide()
                 commentsHide = true
             }
             lazyload();
             codeinit();
-            if ("default" == "twikoo") {
+            if ("valine" == "twikoo") {
                 //twikoo头像更换
                 setTimeout(replaceAvatar, 3000);
                 setTimeout(replaceAvatar, 8000); //部分博主站点速度加载过慢，再添加一个延迟
@@ -1150,69 +1150,6 @@ menulist.eq(i).show();
                 <div class="col-xs-6 col-sm-3"></div>
             </div>
             
-                <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-</head>
-
-<body>
-    <div class="miniMode">
-        <meting-js id="myaplayer" server="netease" type="playlist" fixed="true" order="default" muted="muted">
-        </meting-js>
-    </div>
-</body>
-
-
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-<script>
-    function aplayerInit() {
-        var aplayerid = "&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=100% height=100% src=&#34;//music.163.com/outchain/player?type=0&amp;id=7413731154&amp;auto=1&amp;height=430&#34;&gt;&lt;/iframe&gt;";
-        var aplayerserver = "netease";
-        var aplayerorder = "random";
-        var aplayerautoplay = "true";
-        var aplayer = $("#myaplayer");
-        aplayer.attr("server", aplayerserver);
-        aplayer.attr("id", aplayerid);
-        aplayer.attr("order", aplayerorder);
-        if (aplayerautoplay == "true")
-            aplayer.attr("autoplay", "true");
-    }
-    aplayerInit();
-</script>
-
-<script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/Aplayer.min.js"></script>
-<!-- require MetingJS -->
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-
-<script>
-    function aplayerbtnInit() {
-        var player = document.querySelectorAll('meting-js')[0].aplayer;
-        if(player==undefined)return false;
-        player.lrc.hide();
-        var mbabtn = $("#mbaplayer");
-        if (player.paused == false) {
-            mbabtn.removeClass("fa-play-circle-o");
-            mbabtn.addClass("fa-pause-circle");
-        } else {
-            mbabtn.addClass("fa-play-circle-o");
-            mbabtn.removeClass("fa-pause-circle");
-        }
-    }
-
-    function aplayerPlay() {
-        var player = document.querySelectorAll('meting-js')[0].aplayer;
-        var mbabtn = $("#mbaplayer");
-        if (player.paused == true) {
-            player.play();
-            mbabtn.removeClass("fa-play-circle-o");
-            mbabtn.addClass("fa-pause-circle");
-        } else {
-            player.pause();
-            mbabtn.addClass("fa-play-circle-o");
-            mbabtn.removeClass("fa-pause-circle");
-        }
-    }
-</script>
-                
         </div>
         <div id="bg">
         </div>
