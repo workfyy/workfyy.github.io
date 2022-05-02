@@ -88,7 +88,7 @@
                         src='https://workfyy.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://workfyy.github.io/images/avatar.png?v=1651477883139" class="avatar">
+            <img src="https://workfyy.github.io/images/avatar.png?v=1651483896268" class="avatar">
         </div>
         <div class="sitename">林中小站</div>
         <span class="description" data-text='["记录自己，温故而知新"]'>&nbsp;</span>
@@ -181,6 +181,12 @@
         
 
         
+        <div class="mchocie description">
+            <a data-pjax href="https://workfyy.github.io/talk" class="menubutton" style="margin-right: 15px;">
+                <i><img class="icon menuicon" src="" alt="说说"></i>&nbsp;<span data-text="说说">说说</span>
+            </a>
+        </div>
+        
         
         
         <div class="mchocie description">
@@ -216,7 +222,7 @@
 
 <body>
     <div class="foot">
-        <div id="footinfo"> | Theme: <a
+        <div id="footinfo"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=100% src="//music.163.com/outchain/player?type=0&id=7413731154&auto=1&height=430"></iframe> | Theme: <a
                 href="https://github.com/850552586/gridea-theme-fog">Fog</a>
             <div>
                 
@@ -378,8 +384,44 @@
     
         
             <script>
-                var iconname = "";
-                var iconurl = "";
+                var iconname = "首页";
+                var iconurl = "Home";
+                icondict[iconname] = iconurl;
+            </script>
+        
+            <script>
+                var iconname = "归档";
+                var iconurl = "Archive";
+                icondict[iconname] = iconurl;
+            </script>
+        
+            <script>
+                var iconname = "分类";
+                var iconurl = "Tag";
+                icondict[iconname] = iconurl;
+            </script>
+        
+            <script>
+                var iconname = "关于";
+                var iconurl = "About";
+                icondict[iconname] = iconurl;
+            </script>
+        
+            <script>
+                var iconname = "友人帐";
+                var iconurl = "Friends";
+                icondict[iconname] = iconurl;
+            </script>
+        
+            <script>
+                var iconname = "小站";
+                var iconurl = "https://img.51miz.com/Element/00/84/81/62/8efd101e_E848162_4eb6ab29.png";
+                icondict[iconname] = iconurl;
+            </script>
+        
+            <script>
+                var iconname = "说说";
+                var iconurl = "Talk";
                 icondict[iconname] = iconurl;
             </script>
         
@@ -401,7 +443,7 @@
     get();
 
     function get() {
-        var t = JSON.parse('[]');
+        var t = JSON.parse('[{"author":"个人","img":"","text":"第一条说说！","time":"2022/5/2"}]');
         talkindex = t.length - 1;
         for (var i = 0; i <= t.length - 1; i++) {
             var d = {};
@@ -958,6 +1000,8 @@ menulist.eq(i).show();
         
         
         
+        <li><a data-pjax href="https://workfyy.github.io/talk" style="color:white">说说</a></li>
+        
         
           
         <li><a data-pjax href="https://workfyy.github.io/friends" style="color:white">友链</a></li>
@@ -1229,9 +1273,9 @@ menulist.eq(i).show();
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script>
     function aplayerInit() {
-        var aplayerid = "&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=330 height=450 src=&#34;//music.163.com/#/my/m/music/playlist?id=7413731154&amp;auto=1&amp;height=430&#34;&gt;&lt;/iframe&gt;";
+        var aplayerid = "&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=100% height=100% src=&#34;//music.163.com/outchain/player?type=0&amp;id=7413731154&amp;auto=1&amp;height=430&#34;&gt;&lt;/iframe&gt;";
         var aplayerserver = "netease";
-        var aplayerorder = "default";
+        var aplayerorder = "random";
         var aplayerautoplay = "true";
         var aplayer = $("#myaplayer");
         aplayer.attr("server", aplayerserver);
