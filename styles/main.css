@@ -3324,20 +3324,20 @@ a {
 }
 
       .sitename {
-        color: #da77f2;
+        color: #1098ad;
       }
     
         .description {
-          color: #868e96;
+          color: #5c7cfa;
         }
       
         .menubutton {
-          color: #748ffc;
+          color: #1864ab;
         }
 
         .menucontainer span::before,
         .menucontainer span::after {
-          color:#748ffc;
+          color:#1864ab;
           content: attr(data-text);
           position: absolute;
           top: -0.5em;
@@ -3347,30 +3347,30 @@ a {
         }
 
         .menubutton:visited{
-          color: #748ffc;
+          color: #1864ab;
         }
 
         .menutopbutton{
-          color: #748ffc;
+          color: #1864ab;
         }
 
         .menutopbutton:visited{
-          color: #748ffc;
+          color: #1864ab;
         }
       
         .posttitle {
-          color: #e03131;
+          color: #495057;
         }
         .eleg-title{
-          color: #e03131;
+          color: #495057;
         }
       
         #sitegotimeDate,#sitegotimes,#footinfo,#footinfo a{
-          color: #9775fa;
+          color: #74c0fc;
         }
       
         .mobiledescribtion{
-          color: #9775fa;
+          color: #74c0fc;
         }
       
         .navbar-inverse{
