@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://workfyy.github.io</id>
     <title>林中小站</title>
-    <updated>2022-05-02T07:22:03.781Z</updated>
+    <updated>2022-05-02T07:42:59.849Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://workfyy.github.io"/>
     <link rel="self" href="https://workfyy.github.io/atom.xml"/>
@@ -38,6 +38,7 @@
 <p>在<strong>UNIX</strong>发展历程中，由于版权问题，大学里再也不能使用<strong>UNIX</strong>源代码😰<br>
 在荷兰阿姆斯特丹的布鲁塞尔自由大学计算机科学系的<em>Andrew S. Tanenbaum</em>教授为了学生，在不使用<strong>UNIX</strong>源代码的情况下，自己开发了一个能于<strong>UNIX</strong>兼容的操作系统----<strong>Minix</strong>。😎<br>
 <strong>Minix</strong>于<em>1987</em>年开放源码供大学教学和研究工作使用🤚</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=337 height=110 src="//music.163.com/#/my/m/music/playlist?id=7413731154&auto=1&height=90"></iframe>
 ]]></content>
     </entry>
 </feed>
