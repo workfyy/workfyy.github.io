@@ -3324,20 +3324,20 @@ a {
 }
 
       .sitename {
-        color: #1098ad;
+        color: #3CB371;
       }
     
         .description {
-          color: #5c7cfa;
+          color: #673dff;
         }
       
         .menubutton {
-          color: #1864ab;
+          color: #6495ED;
         }
 
         .menucontainer span::before,
         .menucontainer span::after {
-          color:#1864ab;
+          color:#6495ED;
           content: attr(data-text);
           position: absolute;
           top: -0.5em;
@@ -3347,30 +3347,30 @@ a {
         }
 
         .menubutton:visited{
-          color: #1864ab;
+          color: #6495ED;
         }
 
         .menutopbutton{
-          color: #1864ab;
+          color: #6495ED;
         }
 
         .menutopbutton:visited{
-          color: #1864ab;
+          color: #6495ED;
         }
       
         .posttitle {
-          color: #495057;
+          color: #9775fa;
         }
         .eleg-title{
-          color: #495057;
+          color: #9775fa;
         }
       
         #sitegotimeDate,#sitegotimes,#footinfo,#footinfo a{
-          color: #74c0fc;
+          color: #E6E6FA;
         }
       
         .mobiledescribtion{
-          color: #74c0fc;
+          color: #E6E6FA;
         }
       
         .navbar-inverse{
@@ -3378,18 +3378,18 @@ a {
         }
       
         .sitename{
-          font-family: 鸿雷板书简体-Regular;
+          font-family: 鸿雷板书简体;
         }
       
         .description{
-          font-family: 鸿雷板书简体-Regular;
+          font-family: 鸿雷板书简体;
         }
       
         .siteinfo{
-          font-family: 鸿雷板书简体-Regular;
+          font-family: 鸿雷板书简体;
         }
       
         .menubutton{
-          font-family: 鸿雷板书简体-Regular;
+          font-family: 鸿雷板书简体;
         }
       
