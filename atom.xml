@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://workfyy.github.io</id>
+    <title>林中小站</title>
+    <updated>2022-05-03T13:56:48.499Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://workfyy.github.io"/>
+    <link rel="self" href="https://workfyy.github.io/atom.xml"/>
+    <subtitle>希望自己能进步</subtitle>
+    <logo>https://workfyy.github.io/images/avatar.png</logo>
+    <icon>https://workfyy.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 林中小站</rights>
+    <entry>
+        <title type="html"><![CDATA[Linux基础知识]]></title>
+        <id>https://workfyy.github.io/post/linux-ji-chu-ming-ling-zhi-wen-jian-cao-zuo/</id>
+        <link href="https://workfyy.github.io/post/linux-ji-chu-ming-ling-zhi-wen-jian-cao-zuo/">
+        </link>
+        <updated>2022-04-16T13:43:27.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="一-简介">一 、简介：</h1>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="一-简介">一 、简介：</h1>
+]]></content>
+    </entry>
+</feed>
