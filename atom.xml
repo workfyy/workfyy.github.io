@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://workfyy.github.io</id>
     <title>林中小站</title>
-    <updated>2022-05-03T13:56:48.499Z</updated>
+    <updated>2022-05-04T04:48:01.771Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://workfyy.github.io"/>
     <link rel="self" href="https://workfyy.github.io/atom.xml"/>
@@ -19,6 +19,27 @@
         <summary type="html"><![CDATA[<h1 id="一-简介">一 、简介：</h1>
 ]]></summary>
         <content type="html"><![CDATA[<h1 id="一-简介">一 、简介：</h1>
+<!-- more -->
+<p>讲到<strong>Linux</strong> 就不得不讲到它的前身-----------<strong>UNIX</strong><br>
+因为<strong>Linux</strong>就是在<strong>UNIX</strong>的基础上开发的一个多用户，多任务，方便又快速的一个操作系统👍👍👍<br>
+在学习的时候可以与<strong>Windows</strong>里的一些命令去比较，可以加快学习进度，更能理解哦😀</p>
+<!-- more -->
+<h1 id="关于linux可以去往官网linuxorg-下载它的内核版本">关于Linux可以去往官网👉<a href="https://www.linux.org/">Linux.org</a> 下载它的内核版本🤙</h1>
+<!-- more -->
+<h1 id="1unix">1.UNIX</h1>
+<!-- more -->
+<p><strong>Linux</strong> 来源于<strong>UNIX</strong><br>
+<strong>UNIX</strong>则是一个强大的多用户、多任务、支持多种处理器架构的操作系统。<br>
+它于<em>1969</em>年由 <em>Ken Thompson</em>🙎‍♂、<em>Dennis Ritchie</em>🙍‍♂于在<em>AT＆T</em>的贝尔实验室开发<br>
+因此<em>1970</em>年被称为“<strong>UNIX</strong>元年”。于是在<strong>UNIX</strong>和<strong>Linux</strong>系统中均使用<em>1970</em>年<em>1</em>   月<em>1</em>日作为起点，以来纪念这一天。😊</p>
+<!-- more -->
+<h1 id="2minix">2.Minix</h1>
+<!-- more -->
+<p>在<strong>UNIX</strong>发展历程中，由于版权问题，大学里再也不能使用<strong>UNIX</strong>源代码😰<br>
+在荷兰阿姆斯特丹的布鲁塞尔自由大学计算机科学系的<em>Andrew S. Tanenbaum</em>教授为了学生，在不使用<strong>UNIX</strong>源代码的情况下，自己开发了一个能于<strong>UNIX</strong>兼容的操作系统----<strong>Minix</strong>。😎<br>
+<strong>Minix</strong>于<em>1987</em>年开放源码供大学教学和研究工作使用🤚</p>
+<!-- more -->
+<p>#3.</p>
 ]]></content>
     </entry>
 </feed>
