@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://workfyy.github.io</id>
     <title>林中小站</title>
-    <updated>2022-05-06T12:51:05.145Z</updated>
+    <updated>2022-05-06T15:24:37.782Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://workfyy.github.io"/>
     <link rel="self" href="https://workfyy.github.io/atom.xml"/>
@@ -10,6 +10,74 @@
     <logo>https://workfyy.github.io/images/avatar.png</logo>
     <icon>https://workfyy.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 林中小站</rights>
+    <entry>
+        <title type="html"><![CDATA[Gridea+Github搭建一个简单的个人博客]]></title>
+        <id>https://workfyy.github.io/post/grideagithub-da-jian-yi-ge-jian-dan-de-ge-ren-bo-ke/</id>
+        <link href="https://workfyy.github.io/post/grideagithub-da-jian-yi-ge-jian-dan-de-ge-ren-bo-ke/">
+        </link>
+        <updated>2022-05-06T13:47:27.000Z</updated>
+        <summary type="html"><![CDATA[<p>搭建博客已久，现在想和你们分享一下如何搭建一个简单的个人博客<br>
+话不多说，看正文👇</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>搭建博客已久，现在想和你们分享一下如何搭建一个简单的个人博客<br>
+话不多说，看正文👇</p>
+<!-- more -->
+<h1 id="1注册github">1.注册Github</h1>
+<p><strong>GitHub</strong>是一个面向开源及私有软件项目的托管平台，那么我们想要搭建博客首先就需要把我们的代码放到<strong>Github</strong>上运行托管.<br>
+<img src="https://bkimg.cdn.bcebos.com/pic/5bafa40f4bfbfbedac5eef1d78f0f736afc31f48?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_auto" alt="" loading="lazy"></p>
+<!-- more -->
+<p><strong>如何注册？</strong><br>
+首先，到达<a href="https://github.com/">GitHub</a>网站进行注册</p>
+<!-- more -->
+<p><strong>Step1</strong><br>
+点击网站右上角的<em>Sign Up</em>输入邮箱号，设置密码，用户名进行注册<br>
+<img src="https://workfyy.github.io/post-images/1651845890961.PNG" alt="" loading="lazy"><br>
+之后这会出现个额外选项，我们输入y（即yes）即可。<br>
+<img src="https://workfyy.github.io/post-images/1651846142394.PNG" alt="" loading="lazy"><br>
+恭喜你！到这你已经拥有了属于自己的<strong>Github</strong>账号啦</p>
+<!-- more -->
+<h1 id="2创建github仓库">2.创建Github仓库</h1>
+<p><strong>GitHub</strong>仓库是用来储存和运行我们博客代码的地方.</p>
+<!-- more -->
+<p><strong>如何创建？</strong><br>
+进入你的<strong>Github</strong>后点击左上角的<strong>New</strong>即可进入创建仓库的界面<br>
+进入以后，输入你仓库的的名字，格式：<em>[用户名].github.io</em>，勾选<strong>Add a README file</strong>选项<br>
+<img src="https://workfyy.github.io/post-images/1651847157016.PNG" alt="" loading="lazy"><br>
+点击创建，此时你已经拥有了自己的仓库🤗</p>
+<!-- more -->
+<h1 id="3获取github令牌">3.获取Github令牌</h1>
+<p>在配置中，我们需要获取<strong>Github</strong>的令牌才行</p>
+<!-- more -->
+<p><strong>如何获取?</strong><br>
+点击右上角用户头像，点击<strong>settings</strong>(设置)。<br>
+进入后划到最底下找到<img src="https://workfyy.github.io/post-images/1651849025726.PNG" alt="" loading="lazy"><br>
+进入后点击第三项，创建<strong>token</strong><br>
+<img src="https://workfyy.github.io/post-images/1651849269341.jpg" alt="" loading="lazy"><br>
+划到最下面，点击创建即可<br>
+退出来后，将会得到你的令牌<br>
+<img src="https://workfyy.github.io/post-images/1651849529557.jpg" alt="" loading="lazy"></p>
+<!-- more -->
+<h1 id="github篇结束">GitHub篇结束</h1>
+<h1 id="4配置gridea">4.配置Gridea</h1>
+<p>简介：<strong>Gridea</strong> 是一款麻雀虽小却五脏俱全的静态博客写作客户端，他能让你告别繁琐的 <strong>Git</strong> 操作，更加快速方便的管理你的个人 <strong>Blog</strong>，同时 <strong>Gridea</strong> 恰到好处的主题和实用的配置功能也能一定程度上帮助你美化 <strong>Blog</strong>，如果你的动手能力够强，甚至可以自己调教主题😄</p>
+<p>下载页面：<a href="https://gridea.dev/">Gridea</a></p>
+<p><strong>如何配置？</strong><br>
+进入<strong>Gridea</strong>后，你会看到一个十分简洁的界面👇<br>
+<img src="https://workfyy.github.io/post-images/1651849856621.PNG" alt="" loading="lazy"><br>
+在这里，你可以进行写作，具体的我们不再过多赘述，开始正文</p>
+<p>首先，找到最底下的远程选项，进去后即可配置<strong>Gridea</strong>，按照下图配置👇<br>
+<img src="https://workfyy.github.io/post-images/1651849958092.jpg" alt="" loading="lazy"><br>
+配置完成之后点击保存即可</p>
+<p><strong>测试</strong><br>
+点击检测远程链接，即可对<strong>Github</strong>上的链接进行检测，出现远程链接成功代表配置成功，如出现报错，请返回查看上图步骤。<br>
+<img src="https://workfyy.github.io/post-images/1651850643231.PNG" alt="" loading="lazy"><br>
+点击同步，即可把博客刚刚更新的东西上传到<strong>Github</strong>上(有时会因为网络原因会导致同步失败，多同步几次即可)<br>
+<img src="https://workfyy.github.io/post-images/1651850268654.PNG" alt="" loading="lazy"><br>
+点击渲染，即可在本地查看自己的博客</p>
+<h1 id="5结尾">5.结尾</h1>
+<p>如若上面都没问题，那么恭喜你，你的博客已经搭建完毕！😄 尽情优化你的博客吧！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux基础知识]]></title>
         <id>https://workfyy.github.io/post/linux-ji-chu-ming-ling-zhi-wen-jian-cao-zuo/</id>
@@ -24,7 +92,7 @@
 因为<strong>Linux</strong>就是在<strong>UNIX</strong>的基础上开发的一个多用户，多任务，方便又快速的一个操作系统👍👍👍<br>
 在学习的时候可以与<strong>Windows</strong>里的一些命令去比较，可以加快学习进度，更能理解哦😀</p>
 <!-- more -->
-<h1 id="关于linux可以去往官网linuxorg-下载它的内核版本">关于Linux可以去往官网👉<a href="https://www.linux.org/">Linux.org</a> 下载它的内核版本🤙</h1>
+<h1 id="关于linux可以去往官网linux-下载它的内核版本">关于Linux可以去往官网👉<a href="https://www.linux.org/">Linux</a> 下载它的内核版本🤙</h1>
 <!-- more -->
 <h1 id="1unix">1.UNIX</h1>
 <!-- more -->
@@ -39,7 +107,46 @@
 在荷兰阿姆斯特丹的布鲁塞尔自由大学计算机科学系的<em>Andrew S. Tanenbaum</em>教授为了学生，在不使用<strong>UNIX</strong>源代码的情况下，自己开发了一个能于<strong>UNIX</strong>兼容的操作系统----<strong>Minix</strong>。😎<br>
 <strong>Minix</strong>于<em>1987</em>年开放源码供大学教学和研究工作使用🤚</p>
 <!-- more -->
-<p>#3.</p>
+<h1 id="3linux">3.Linux</h1>
+<!-- more -->
+<p>随着时间的发展，当时大学中使用的<strong>Minux</strong>对处理器架构<em>80386</em>的兼容性很差<br>
+芬兰赫尔辛基大学学生希望在<strong>intle</strong>的新<strong>CPU</strong> <em>386</em>上运行类似UNIX的操作系统。<br>
+于是在<em>1991</em>年的<em>10</em>月<em>5</em>日，<em>Linus</em>在<em>comp.os.minix</em>新闻组上发布消息，正式对外宣布该内核系统的诞生，并将自己的姓名与<strong>UNIX</strong>结合，将内核系统命名为-------<strong>Linux.</strong></p>
+<!-- more -->
+<h1 id="4gnu">4.GNU</h1>
+<p><strong>GNU</strong>计划是由<em>Richard Stallman</em>在<em>1983</em>年<em>9</em>月<em>27</em>日公开发起的。它的核心思想是反对以<strong>UNIX</strong>为代表的商业软件系统，希望能够创建一套完全自由的软件系统。<br>
+为了保证<strong>GNU</strong>软件可以自由地&quot;使用、复制、修改和发布&quot;,所有<strong>GNU</strong>软件都有一份在禁止其他人添加任何限制情况下授权所有权利的协议条款----<strong>GNU</strong>通用公共许可证（<strong>GNU General Public License，GPL</strong>），即&quot;<strong>反版权</strong>&quot;概念</p>
+<h1 id="二-linux-内核版本">二、Linux 内核版本</h1>
+<!-- more -->
+<p><strong>Linux</strong>内核版本是由开发者本人维护并更新的，它是<strong>Linux</strong>操作系统的核心。<br>
+网站的首页如下图所示👇</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://workfyy.github.io/post-images/1651843388567.PNG" alt="" loading="lazy"></figure>
+<!-- more -->
+<h1 id="三-linux-发行版本">三、Linux 发行版本</h1>
+<!-- more -->
+<p>1.什么是<strong>Linux</strong>发行版本？</p>
+<!-- more -->
+<p><strong>Linux</strong>发行版本指的是在<strong>Linux</strong>的内核系统基础上，结合大量<strong>GNU</strong>软件包装而成<br>
+且面向用户群体发行的完整操作版本</p>
+<!-- more -->
+<p>2.<strong>Linux发行版本</strong>大致分为哪几类？</p>
+<!-- more -->
+<p>①：第一类是<strong>商业公司</strong>维护的发行版本，以著名的<strong>Hat Hat</strong>为代表</p>
+<!-- more -->
+<p>②：第二类是以<strong>社区组织</strong>维护的发行版本，以<strong>Debian</strong>为代表。</p>
+<!-- more -->
+<p>下面是一些常见的<strong>Linux</strong>的发行版本👇</p>
+<!-- more -->
+<h1 id="1-rad-hat-linux">1. Rad Hat Linux</h1>
+<!-- more -->
+<p><strong>Red Hat</strong>，应称为<strong>Rad Hat</strong>系列，包括<strong>RHEL</strong>（<strong>Red Hat Enterprise Linux</strong>）<strong>Fedora core</strong>.<strong>Red Hat</strong>可以说是在国内使用人数最多的一个发行版本，而且许多网上的教程也都是以<strong>Red Hat</strong>为例去讲解的。<br>
+①、特色：</p>
+<!-- more -->
+<p>1.管理软件：<strong>Red Hat</strong>系列的包管理方式采用的是基于<strong>RPM</strong>包的<strong>YUM</strong>包管理方式，包分发方式是编译好的二进制文件。<br>
+2.稳定性：<strong>RHEL</strong>和<strong>CentOS</strong>的稳定性非常好，适合用于服务器.但<strong>Fedora core</strong>的稳定性较差，最好只用于桌面应用。<br>
+3.特点：人数多、资源多、用户基数大。</p>
+<!-- more -->
 ]]></content>
     </entry>
 </feed>
