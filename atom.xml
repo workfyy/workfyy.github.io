@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://workfyy.github.io</id>
     <title>林中小站</title>
-    <updated>2022-05-08T10:13:09.397Z</updated>
+    <updated>2022-05-08T10:34:55.425Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://workfyy.github.io"/>
     <link rel="self" href="https://workfyy.github.io/atom.xml"/>
@@ -90,7 +90,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux基础知识]]></title>
+        <title type="html"><![CDATA[Linux的起源与发展]]></title>
         <id>https://workfyy.github.io/post/linux-ji-chu-ming-ling-zhi-wen-jian-cao-zuo/</id>
         <link href="https://workfyy.github.io/post/linux-ji-chu-ming-ling-zhi-wen-jian-cao-zuo/">
         </link>
@@ -156,8 +156,18 @@
 <!-- more -->
 <p>1.管理软件：<strong>Red Hat</strong>系列的包管理方式采用的是基于<strong>RPM</strong>包的<strong>YUM</strong>包管理方式，包分发方式是编译好的二进制文件。<br>
 2.稳定性：<strong>RHEL</strong>和<strong>CentOS</strong>的稳定性非常好，适合用于服务器.但<strong>Fedora core</strong>的稳定性较差，最好只用于桌面应用。<br>
-3.特点：人数多、资源多、用户基数大。</p>
+3.特点：人数多、资源多、用户基数大。<br>
+<img src="https://www.idg.se/editorial/980/path/1.750240.1619688744!imageUploader/1730997633.jpg" alt="" loading="lazy"></p>
 <!-- more -->
+<h1 id="2debian-linux">2.Debian Linux</h1>
+<p><strong>Debian，<strong>或是</strong>Debian</strong>系列，包括<strong>Debian</strong>和<strong>Ubuntu</strong>等。<br>
+<strong>Debian</strong>是社区类Linux的典范，也最遵循<strong>GNU</strong>规范。<strong>Debian</strong>分为三个分支：<br>
+<strong>stable</strong>、<strong>testing</strong>和<strong>unstable</strong>。其中，<strong>unstable</strong>为最新的测试版本，有相对来说较多的<strong>bug</strong>，适合桌面用户。<strong>testing</strong>的版本都经过测试，相对较为稳定。而<strong>stable</strong>一般只用于服务器，软件包大都比较过时，但是稳定性和安全性都很高。<strong>Debian</strong>最具特色的是<em>apt-get/dpkg</em>包管理方式。<br>
+<img src="https://www.linuxidc.com/upload/2018_04/180418083015971.jpg" alt="" loading="lazy"></p>
+<h1 id="3kail-linux">3.kail Linux</h1>
+<p><strong>kail Linux</strong>是基于<strong>Debian</strong>的<strong>Linux</strong>发行版，设计用于数字取证和渗透测试。<br>
+由<em>Offensive Security</em>维护和资助。最先由<em>Offensive Security</em>的<em>Mati Aharoni</em>和<em>Devon Kearns</em>通过重写<em>BackTrack</em>来完成，<em>BackTrack</em>是他们之前写的用于取证的<strong>Linux</strong>发行版<br>
+<img src="https://sayoho.com/wp-content/uploads/2020/12/kali_capa.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
